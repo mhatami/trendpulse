@@ -1,0 +1,46 @@
+# === GLOBAL IGNORE ===
+.DS_Store
+.env
+*.env
+*.log
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+.vscode/
+*.bak
+*.tmp
+
+# === PYTHON BACKEND ===
+trendpulse_backend/__pycache__/
+trendpulse_backend/.mypy_cache/
+trendpulse_backend/.pytest_cache/
+trendpulse_backend/venv/
+trendpulse_backend/.venv/
+trendpulse_backend/trendpulse_cache/
+trendpulse_backend/wip/
+trendpulse_backend/*.log
+trendpulse_backend/*.sqlite3
+
+# Optional: Ignore all notebooks used for testing
+trendpulse_backend/**/*.ipynb
+
+# === FRONTEND ===
+trendpulse_frontend/node_modules/
+trendpulse_frontend/dist/
+trendpulse_frontend/.vite/
+trendpulse_frontend/.env.local
+trendpulse_frontend/.env.*
+trendpulse_frontend/.DS_Store
+trendpulse_frontend/*.log
+
+# === SYSTEM ===
+*.log
+*.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.idea/
