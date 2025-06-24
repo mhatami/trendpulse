@@ -54,8 +54,18 @@ useEffect(() => {
   fetchData();
 }, [symbol, refreshKey]);
 
-
-  if (!symbol) return <p>Please enter a stock symbol to begin.</p>;
+  if (!symbol) {
+    return (
+      <div className="text-center text-gray-600 mt-10">
+              <img
+        src="/trendpulselogo.png"
+        alt="TrendPulse Logo"
+        className="mx-auto mb-6 w-48 h-auto"
+      />
+        <p className="text-lg">🔍 Select a stock symbol to view its overview.</p>
+      </div>
+    );
+  }
 
   return (
     <div>

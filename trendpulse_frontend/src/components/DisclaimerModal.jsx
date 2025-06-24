@@ -25,6 +25,11 @@ export default function DisclaimerModal() {
             </button>
           </div>
           <div className="mt-4 text-sm text-gray-700">
+                        <img
+        src="/trendpulselogo.png"
+        alt="TrendPulse Logo"
+        className="mx-auto my-2 w-40 h-auto"
+      />
             <p>
               This tool is for informational and educational use only. It does not provide financial advice.
               All stock data is sourced from Yahoo Finance via the yfinance API and may not be accurate or current.

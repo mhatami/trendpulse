@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Set your FastAPI backend base URL
-const BASE_URL = "http://localhost:8000"; // or your deployed backend
+const BASE_URL = "https://trendpulseapi.sequencecorp.com"; // or your deployed backend
 
 //converting to period defined in backend API's
 const PERIOD_MAP = {
